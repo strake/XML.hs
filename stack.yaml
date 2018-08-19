@@ -1,4 +1,4 @@
-resolver: nightly-2018-05-04
+resolver: lts-12.0
 
 packages:
 - .
@@ -6,6 +6,7 @@ packages:
 extra-deps:
 - multivector-0.1.0.0
 - txt-0.0.2.1
-- util-0.1.7.0
 - git: https://github.com/strake/bytestring.hs
   commit: f0619666f189b22b15d7607ec0d5e4c305d54fcb
+- git: https://github.com/strake/vector.hs
+  commit: dd8f0f05c0216eea544e2680d1bb1d8f9ceb5306
